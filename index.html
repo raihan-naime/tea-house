@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- tailwind cdn -->
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-     <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-</head>
-<body>
-    
-</body>
+    <!-- [0_1px_10px_rgba(0,0,0,0.1)] -->
+    <!-- css link -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body class="font-manrope">
+    <header class="max-w-[1140px] mx-auto mt-16">
+      <div class="flex justify-between items-center">
+        <div class="flex-1/2 space-y-8">
+            <h1 class="text-7xl font-extrabold text-[#1C1C1C]">It's good <br>tea time at The Tea House</h1>
+        <p class="font-medium text-xl text-[#777777]">
+          Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+          Taste Buds.
+        </p>
+        <button class="bg-linear-to-r/srgb from-[#FF8938] to-[rgba(255,81,33,1)] p-5 rounded-[10px] text-white text-xl font-bold">
+            Explore More 
+            <i class="fa-solid fa-arrow-right -rotate-45"></i>
+        </button>
+        </div>
+        <div class="flex-1/2 relative">
+          <img src="./images/banner.png" alt="" />
+          <div class="flex items-center gap-3 bg-white shadow-[0_1px_10px_rgba(0,0,0,0.1)] absolute bottom-0 left-25 max-w-[255px] p-5 rounded-[10px]">
+            <div>
+              <i class="fa-solid fa-star text-[#FFC850]"></i>
+            </div>
+            <div>
+              <h4>5.00</h4>
+              <p>Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
